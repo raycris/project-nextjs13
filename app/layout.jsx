@@ -1,14 +1,14 @@
+import Navigation from './components/Navigation'
 import './globals.css'
 
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang='en'>
       <head />
-      <body>{children}</body>
+      <body>
+        <Navigation />
+        {children}
+      </body>
     </html>
   )
 }
