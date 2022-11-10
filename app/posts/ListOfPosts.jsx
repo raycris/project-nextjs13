@@ -1,5 +1,3 @@
-'use client'
-
 import LikeButton from './LikeButton'
 
 /* 'use client' se utiliza parta decirle a next que este es un componente del uso del cliente
