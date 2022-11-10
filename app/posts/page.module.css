@@ -1,0 +1,13 @@
+.section { 
+  display: flex;
+  flex-direction: column;
+  min-width: 288px;
+  justify-content: center;
+}
+
+.article{
+  padding: 8px;
+  margin: 10px 0;
+  max-width: 600px;
+  border: 1px solid white;
+}
