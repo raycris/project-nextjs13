@@ -2,6 +2,9 @@
 const nextConfig = {
   experimental: {
     appDir: true
+  },
+  images: {
+    domains: ['avatars.dicebear.com']
   }
 }
 
