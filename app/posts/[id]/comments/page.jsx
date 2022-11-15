@@ -12,7 +12,6 @@ const fetchComments = (id) => {
 
 const Post = async ({ params }) => {
   const { id } = params
-  console.log(id)
   const comments = await fetchComments(id)
   return (
     <ul className={style.ul}>
