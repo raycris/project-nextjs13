@@ -4,11 +4,9 @@
 
 .li {
   margin: 10px 0;
-  height: 400px;
   padding: 6px;
   display: flex;
   overflow: hidden;
-  max-width: 400px;
   list-style: none;
   background: #282525;
   border-radius: 20px;
@@ -27,5 +25,12 @@
 @media (min-width: 375px) {
   .li {
     height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .li {
+    height: auto;
+    align-items: center;
   }
 }

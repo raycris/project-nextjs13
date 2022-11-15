@@ -5,9 +5,10 @@
   justify-content: center;
 }
 
-.article{
-  border: 1px solid white;
-  margin: 10px 0;
-  padding: 8px;
-  max-width: 600px;
+@media (min-width: 1024px) {
+  .section {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
