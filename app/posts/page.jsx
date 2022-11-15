@@ -3,7 +3,7 @@ porque estan en un serviudor de cliente. entonces debemos de buscar otra opcion
 para hacer el fetchin de datos
 */
 
-import ListOfposts from './ListOfPosts'
+import ListOfposts from '../components/ListOfPosts'
 import styles from './page.module.css'
 
 const PostsPage = () => {
